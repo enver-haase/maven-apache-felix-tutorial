@@ -1,0 +1,8 @@
+Bundle-Name: Service listener example
+Bundle-Description: A bundle that displays messages at startup and when service events occur
+Bundle-Vendor: Apache Felix
+Bundle-Version: ${osgi.bundle.version}
+Bundle-Activator: tutorial.example1.Activator
+Import-Package: org.osgi.framework
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
