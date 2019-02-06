@@ -1,0 +1,8 @@
+Bundle-Name: Service Tracker-based dictionary client
+Bundle-Description: A dictionary client using the Service Tracker.
+Bundle-Vendor: Apache Felix
+Bundle-Version: ${osgi.bundle.version}
+Bundle-Activator: tutorial.example5.Activator
+Import-Package: org.osgi.framework,org.osgi.util.tracker,tutorial.example2.service
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
