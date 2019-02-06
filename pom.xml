@@ -71,4 +71,11 @@
         </dependency>
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>local-maven-repo</id>
+            <url>file:///${project.basedir}/local-maven-repo</url>
+        </repository>
+    </repositories>
+
 </project>
