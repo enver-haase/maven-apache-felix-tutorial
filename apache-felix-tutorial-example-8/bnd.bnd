@@ -1,0 +1,9 @@
+Bundle-Name: Service Binder Spell checker service
+Bundle-Description: A bundle that implements a simple spell checker service
+Bundle-Vendor: Apache Felix
+Bundle-Version: ${osgi.bundle.version}
+Bundle-Activator: tutorial.example8.Activator
+Import-Package: tutorial.example2.service,tutorial.example6.service,org.apache.felix.servicebinder
+Metadata-Location: tutorial/example8/metadata.xml
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
