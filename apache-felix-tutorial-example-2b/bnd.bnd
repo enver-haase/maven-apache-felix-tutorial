@@ -1,0 +1,9 @@
+Bundle-Name: French dictionary
+Bundle-Description: A bundle that registers a French dictionary service
+Bundle-Vendor: Apache Felix
+Bundle-Version: ${osgi.bundle.version}
+Bundle-Activator: tutorial.example2b.Activator
+Export-Package: tutorial.example2.service
+Import-Package: org.osgi.framework,tutorial.example2.service
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
