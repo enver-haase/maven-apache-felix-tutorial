@@ -17,6 +17,7 @@
         <module>apache-felix-tutorial-example-6</module>
         <module>apache-felix-tutorial-example-7</module>
         <module>apache-felix-tutorial-example-8</module>
+        <module>apache-felix-tutorial-example-9</module>
     </modules>
 
     <properties>
