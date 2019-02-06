@@ -26,7 +26,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-
     <build>
         <plugins>
             <plugin>
@@ -74,7 +73,7 @@
     <repositories>
         <repository>
             <id>local-maven-repo</id>
-            <url>file:///${project.basedir}/local-maven-repo</url>
+            <url>file:///${project.basedir}/../local-maven-repo</url>
         </repository>
     </repositories>
 
