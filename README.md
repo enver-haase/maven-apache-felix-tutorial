@@ -4,7 +4,7 @@ Mavenized version of the apache-felix-tutorial at http://felix.apache.org/docume
 Just run
  mvn clean deploy
 
-and find compiled the bundles in 
+and find the compiled bundles in 
  local-maven-repo/org/vaadin/example/osgi
 
 Then run Felix and on the command line play with
